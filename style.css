@@ -45,24 +45,32 @@ body {
   border: 5px solid;
 }
 
+#bio {
+  display: block;
+}
+
+.port-color {
+  background-color: #6da5ff;
+}
+
 .title {
-  font-size: 24pt;
+  font-size: 28pt;
+  font-weight: bold;
 }
 
 .subtitle {
-  font-size: 14pt;
+  font-size: 16pt;
+  font-weight: bold;
 }
 
-.image-holder {
-  padding: 10px;
-  background-color: blue;
-  border-radius: 50px;
+.section {
+  padding: 0;
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+  position: fixed;
+  width: 12px;
 }
-
 
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
