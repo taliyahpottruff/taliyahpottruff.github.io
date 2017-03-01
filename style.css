@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 #content {
   position: absolute;
   margin-left: 25%;
@@ -37,10 +41,30 @@
   background-color: #7fb0ff;
 }
 
+#side-nav img {
+  border: 5px solid;
+}
+
 .title {
   font-size: 24pt;
 }
 
 .subtitle {
   font-size: 14pt;
+}
+
+.image-holder {
+  padding: 10px;
+  background-color: blue;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #dddddd;
 }
