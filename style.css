@@ -1,0 +1,46 @@
+#content {
+  position: absolute;
+  margin-left: 25%;
+}
+
+#side-nav {
+  position: fixed;
+  width: 25%;
+  color: white;
+  background-color: #6da5ff;
+  height: 100%;
+  text-align: center;
+}
+
+#side-nav .title {
+  margin-bottom: 0;
+}
+
+#side-nav .subtitle {
+  margin-top: 0;
+}
+
+#side-nav br {
+  height: 100px;
+}
+
+#side-nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 14pt;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#side-nav a:hover {
+  background-color: #7fb0ff;
+}
+
+.title {
+  font-size: 24pt;
+}
+
+.subtitle {
+  font-size: 14pt;
+}
