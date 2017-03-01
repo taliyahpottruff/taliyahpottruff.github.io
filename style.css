@@ -67,6 +67,21 @@ body {
   padding: 0;
 }
 
+.display-buttons button {
+  margin: 0;
+  display: inline-block;
+  border: 1px solid grey;
+}
+
+.display-buttons .left-button {
+  border-radius: 5px 0px 0px 5px;
+}
+
+.display-buttons .right-button {
+  border-left: 0;
+  border-radius: 0px 5px 5px 0px;
+}
+
 ::-webkit-scrollbar {
   position: fixed;
   width: 12px;
