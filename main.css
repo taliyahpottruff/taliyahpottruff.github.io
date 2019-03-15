@@ -1,0 +1,19 @@
+.navbar {
+    background-color: #121212;
+}
+
+body {
+    background-color: #181818;
+}
+
+.grey-card {
+    background-color: #282828;
+}
+
+.grey-card-content {
+    color: white;
+}
+
+.code {
+    text-align: left;
+}
