@@ -6,5 +6,6 @@ Person GetAbout() {
     trentonPottruff.softwareEngineer = true;
     trentonPottruff.entrepeneur = true;
     trentonPottruff.contentCreator = true;
+    trentonPottruff.awarenessOfBadJokes = 0.25f;
     return trentonPottruff;
 }
