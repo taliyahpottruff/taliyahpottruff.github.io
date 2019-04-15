@@ -16,4 +16,19 @@ body {
 
 .code {
     text-align: left;
+    font-size: 18pt;
+}
+
+.code p {
+    margin: 0;
+}
+
+.code .indent {
+    margin-left: 5ch;
+}
+
+@media (min-width: 600px) {
+    .code {
+        font-size: 32px;
+    }
 }
