@@ -1,0 +1,16 @@
+{
+"companyName": "Jayit Inc",
+"productName": "Earth Fall",
+"productVersion": "1.0",
+"dataUrl": "earthfall.data.unityweb",
+"wasmCodeUrl": "earthfall.wasm.code.unityweb",
+"wasmFrameworkUrl": "earthfall.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.1.10f1"
+}
