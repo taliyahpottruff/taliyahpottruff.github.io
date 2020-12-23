@@ -6,13 +6,13 @@
     <title>Unity WebGL Player | Vienna</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" style="width: 960px; height: 600px; background: #231F20"></canvas>
+    <canvas id="unity-canvas" style="width: 1280px; height: 720px; background: #231F20"></canvas>
     <script src="Build/Web.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Web.data.gz",
-        frameworkUrl: "Build/Web.framework.js.gz",
-        codeUrl: "Build/Web.wasm.gz",
+        dataUrl: "Build/Web.data",
+        frameworkUrl: "Build/Web.framework.js",
+        codeUrl: "Build/Web.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Trenton Pottruff",
         productName: "Vienna",
